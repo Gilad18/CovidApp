@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Covid19 Stats</title>
+    <title>myCovid</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
     <link rel="stylesheet" href="./CSS/normalize.css">
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div class="showCase">
-        <h1>Welecome To myCovid</h1>
+        <h1>Welecome To <span>myCovid</span></h1>
         <h2>Here you can find the latest data about Covid-19</h2>
         <h3>Corona is still a life-treating desase that kills more lives everyday
-            <br>We encourge you to get educated  
-            <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/covid-19-vaccines" target="_blank">here</a>
+            <br>We encourge you to get educated
+            <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/covid-19-vaccines"
+                target="_blank">here</a>
             on the vaccination
         </h3>
-        <button class="btn">Start Explore Data</button>
+        <button class="btn clicked">Start Explore Data</button>
     </div>
     <section class="chart">
         <div class="myChartBox">
@@ -28,18 +31,18 @@
         </div>
         <div class="btnBox">
             <div class="btnBoxCont">
-                <button class="africa btn clicked">AFRICA</button>
-                <button class="americas btn ">AMERICAS</button>
-                <button class="asia btn">ASIA</button>
-                <button class="europe btn">EUROPE</button>
-                <button class="ocenoa btn">OCEANIA</button>
+                <button class="africa btn clicked">Africa</button>
+                <button class="americas btn ">Americas</button>
+                <button class="asia btn">Asia</button>
+                <button class="europe btn">Europe</button>
+                <button class="ocenoa btn">Oceania</button>
             </div>
             <div class="btnBoxStatus">
                 <button class="confirmed btn clicked">Confirmed</button>
                 <button class="deaths btn">Deaths</button>
                 <button class="critical btn">Critical</button>
                 <button class="recovered btn ">Recovered</button>
-           </div>
+            </div>
         </div>
         <btn class="btnBox2">
 
@@ -63,7 +66,8 @@
             <div class="spinner"></div>
             <h2>Loading Your Data, Please wait...</h2>
         </div>
-    </section>   
-    <script  src="./JS/app.js"></script>
+    </section>
+    <script src="./JS/app.js"></script>
 </body>
+
 </html>
