@@ -100,7 +100,7 @@ span {
     border-radius: 10%;
     font-weight: bold;
     font-family: 'Noto Serif', serif;
-    background-color: transparent;
+    background-color: white;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23);
 }
 
@@ -116,14 +116,14 @@ select {
     font-family: 'Noto Serif', serif;
 }
 .selectbtn {
-     margin: 0%;
+    margin-bottom: 5%;
      border-radius: 0%;
 }
 .overlay{
     width: 60%;
     height: 40%;
     background-color: #1dbab4;
-    border-radius: 5%;
+    border: white 1px solid;
     position: absolute;
     top: 30%;
     left: 20%;
@@ -153,6 +153,11 @@ select {
     font-size: xx-large;
 }
 
+.gridBox {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+   }
 .gridBox10{
     grid-column: 1/6;
     border-top: 1px white solid ;
@@ -161,6 +166,7 @@ select {
 
 .gridBoxNum {
     background-color: white;
+    border: black 1px so;
     border-radius: 5%;
     padding: 10%;
     margin-left: 5%;
@@ -237,9 +243,10 @@ select {
     }
     select {
         height: 2rem;
-        width: 8rem;
+        width: 9rem;
     }
     .overlay {
+        width: 70%;
         font-size: medium;
 
     }
